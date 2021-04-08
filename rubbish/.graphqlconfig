@@ -1,0 +1,14 @@
+{
+  "schema": "schema.graphql",
+  "documents": "utils/gql/*.{graphql,js,ts,jsx,tsx}",
+  "extensions": {
+    "endpoints": {
+      "Your Hasura GraphQL Engine Endpoint": {
+        "url": "http://localhost:8080/v1/graphql",
+        "headers": {
+          "x-hasura-admin-secret": "your-admin-secret"
+        }
+      }
+    }
+  }
+}
